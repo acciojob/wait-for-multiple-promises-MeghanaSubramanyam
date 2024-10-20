@@ -22,7 +22,9 @@ Promise.all([promise1, promise2, promise3])
   let output = document.getElementById('output');
 
   // Remove the "Loading..." row
-  output.innerHTML = '';
+  // output.innerHTML = '';
+	let loadingRow=document.getElementById('loading');
+	loadingRow.remove();
 
   // Add a new row for each promise
   for (let i = 0; i < times.length; i++) {
