@@ -1,20 +1,19 @@
-// Create an array of promises
 const promises = [
   new Promise((resolve) => {
+    const randomTime = Math.floor(Math.random() * 3) + 1;
     setTimeout(() => {
-      const randomTime = Math.floor(Math.random() * 3) + 1;
       resolve(randomTime);
     }, randomTime * 1000);
   }),
   new Promise((resolve) => {
+    const randomTime = Math.floor(Math.random() * 3) + 1;
     setTimeout(() => {
-      const randomTime = Math.floor(Math.random() * 3) + 1;
       resolve(randomTime);
     }, randomTime * 1000);
   }),
   new Promise((resolve) => {
+    const randomTime = Math.floor(Math.random() * 3) + 1;
     setTimeout(() => {
-      const randomTime = Math.floor(Math.random() * 3) + 1;
       resolve(randomTime);
     }, randomTime * 1000);
   })
